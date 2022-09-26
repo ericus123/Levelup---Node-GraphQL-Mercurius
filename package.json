@@ -1,0 +1,25 @@
+{
+  "name": "NODE-GRAPHQL-MERCURIUS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ericus123/NODE-GRAPHQL-MERCURIUS.git",
+  "author": "amani <amani@happymonk.co>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "dev": "nodemon src/index.ts"
+  },
+  "dependencies": {
+    "@fastify/static": "5.0.0",
+    "dotenv": "^16.0.2",
+    "fastify": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mercurius": "11.0.0",
+    "mercurius-auth": "^3.0.0",
+    "nodemon": "^2.0.20",
+    "typescript": "^4.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.22"
+  }
+}
